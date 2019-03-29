@@ -11,11 +11,11 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <winui:AnimatedVisualSource x:Name="_player"
+        <winui:AnimatedVisualPlayer x:Name="_player"
                                                 AutoPlay="False"
                                                 Stretch="None">
             <lottie:LottieVisualSource x:Name="_playerSource"
                                                    Options="All" />
-        </winui:AnimatedVisualSource>
+        </winui:AnimatedVisualPlayer>
     </Grid>
 </Page>
